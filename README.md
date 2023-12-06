@@ -4,12 +4,12 @@ This tutorial is intended to give an introduction into HTML code concepts and wi
 
 The target audience of this tutorial are those that are new to coding or those interested in starting with simple coding.
 
-[What is HTML]
+[What is HTML](https://github.com/JusticeGtrrz/FinalProject-DigitalSystems/blob/main/What%20is%20HTML.md)
 + this
 + that
 + the other
   
-[What is CSS]
+[What is CSS](https://github.com/JusticeGtrrz/FinalProject-DigitalSystems/blob/main/What%20is%20CSS.md)
 + this
 + that
 + the other
