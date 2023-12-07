@@ -5,16 +5,15 @@ This tutorial is intended to give an introduction into HTML code concepts and wi
 The target audience of this tutorial are those that are new to coding or those interested in starting with simple coding.
 
 [What is HTML](https://github.com/JusticeGtrrz/FinalProject-DigitalSystems/blob/main/What%20is%20HTML.md)
-+ this
-+ that
-+ the other
++ Brief Discription of what HTML is, as well as the original writer and date of public release.
++ Important terms for tutorial.
++ Examples of code.
   
 [What is CSS](https://github.com/JusticeGtrrz/FinalProject-DigitalSystems/blob/main/What%20is%20CSS.md)
-+ this
-+ that
-+ the other
++ Brief Discription of what CSS is, as well as the original writer and date of public release.
++ Important terms for tutorial.
++ Examples of code.
 
 [Html tutorial](https://github.com/JusticeGtrrz/FinalProject-DigitalSystems/blob/main/Webpage%20Design%20Tutorial.md)
-+ this
-+ that
-+ the other
++ Examples of small codable structures
++ step by step instruciton of simple webpage
