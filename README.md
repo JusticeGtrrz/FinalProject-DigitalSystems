@@ -16,4 +16,4 @@ The target audience of this tutorial are those that are new to coding or those i
 
 [Html tutorial](https://github.com/JusticeGtrrz/FinalProject-DigitalSystems/blob/main/Webpage%20Design%20Tutorial.md)
 + Important terms for tutorial.
-  Step by step instruction of creating a simple webpage.
++ Step by step instruction of creating a simple webpage.
