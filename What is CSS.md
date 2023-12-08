@@ -60,7 +60,7 @@
     Hexadecimal Color refers a 6-symbol code that represents the value of Red, Green, and Blue that make up a color from 0 to 255.
 </details>
 
-### Code Examples
+### Examples of CSS Code with HTML.
 <details>
     <summary>Changing the Font Size and Family</summary>
     <pre><code>&lt;style&gt;
