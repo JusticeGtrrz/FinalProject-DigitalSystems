@@ -51,11 +51,11 @@ If you wish to use the photo that will be used for the background of this tutori
 
 
 ### Now we will create our CSS file and place it in the same folder as our website
-#### For our CSS StyleSheet we will work in a top down fashion as it comes to the classes of our HTML and I will order the properties in alphabetical order for ease of understanding.
+#### For our CSS StyleSheet we will work in a top down fashion as it comes to the classes of our HTML and I will order the properties in alphabetical order for ease of understanding. (All values will be for the tutorial webpage that will be displayed, however any of the properties or values for properties can be changed or re-arranged at your leisure.)
 1. For our first step we will create a overall style that will affect the entire webpage using the class '*'.
-    - Create your first four properties Box-sizing, Font-family, margin and padding with-in the * class.
-        - For the box-size I will use the value border-box
-        - For the Font-family I will use the family 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif.
+    - Create your first four properties Box-sizing, Font-family, margin and padding with-in the * class. In order to set your properties you must type them like the following code``` Property: Value; ```
+        - For the box-size I will use the value border-box as follows ``` box-size: border-box; ```
+        - For the Font-family I will set the value of 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif.
         - For the margin I will set a value of 0.
         - For the padding I will set a value of 0.
 
@@ -65,108 +65,120 @@ If you wish to use the photo that will be used for the background of this tutori
 
 2. Create Style for the Body element.
     - Create the Background, max/min height and max width properties in the Body class.
-        - For the
-        - For the
-        - For the
-        - For the
+        - For the background property we will write three attributes as follows.
+            - ```background-image:``` with the value ``` url('Logo Directory Information'); ```.
+            - ```background-size:``` with the value ``` cover;```.
+            - ```background-repeat:``` with the value ``` no-repeat; ```.
+        - For the min-height property we will set the value to '150vh'.
+        - For the max-height property we will set the value to '200vh'.
+        - For the min-width property we will set the value to '100vw'.
     
     ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-VSCode-Style-Body-Code.png)
 
 3. Create Style for the Logo.
     - Create the color, font, and padding properties in the logo class.
-        - For the
-        - For the
-        - For the
-        - For the
+        - For the color property we will set a value of 'black'.
+        - For the font property we will write three attributes as follows.
+            - ```font-size:``` with the value ``` 2rem; ```.
+            - ```font-style:``` with the value ``` italic;```.
+            - ```font-weight:``` with the value ``` bold; ```.
+        - For the padding property we will set a value of 0 and 1rem as follows ``` padding: 0 1rem; ```.
     
     ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Logo-Code.png)
 
 4. Create Style for the Navigation bar element.
     - Create the align-item, background, display, height, justification, opacity and padding properties in the nav class.
-        - For the
-        - For the
-        - For the
-        - For the
+        - For the align-items property we will set a value of 'center'.
+        - For the background property we will set a Hexadecimal value of ```rgb(209, 114, 25)```.
+        - For the display property we will set a value of 'flex'.
+        - For the height property we will set a value of '80px'.
+        - For the justify-content property we will set a value of 'space-between'.
+        - For the opacity property we will set a value of '80%'.
+        - For the padding property we will set a value of ```0rem calc((100vw-1300px)/2)```.
     
     ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-VSCode-Style-Navigation-Code.png)
 
 5. Create Style for the Navigation buttons
     - Create the color, padding and text properties in the a class.
-        - For the
-        - For the
-        - For the
-        - For the
+        - For the color property we will set a value of 'black'.
+        - For the padding property we will set a value of '0 1.5rem'.
+        - For the text-decoration property we will set a value of 'none'
     
     ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-VSCode-Style-Navigation-Buttons-Code.png)
 
 6. Create Style for the Navigation buttons when the cursor hovers over.
     - Create the color property in the a:hover class.
-        - For the
-        - For the
-        - For the
-        - For the
+        - For the color property we will set a value of 'white'.
     
     ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Navigation-Buttons-Hover-Code.png)
 
 7. Create Style for the Content Container.
     - Create the display, grid-template, height and padding properties in the content container class.
-        - For the
-        - For the
-        - For the
-        - For the
+        - For the display property we will set a value of 'grid'.
+        - For the grid-template-columns we will set a value of '1fr 1fr'.
+        - For the height property we will set a value of '95vh'.
+        - For the padding property we will set a value of ```0rem calc((100vw-1300px)/2)```.
     
     ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Content-Container-Code.png)
 
 8. Create Style for the Overall Column left.
     - Create the align-item, color, display, flex-direction, justify, padding and text-shadow properties in the column-left class.
-        - For the
-        - For the
-        - For the
-        - For the
+        - For the align-items property we will set the value of 'flex-start'.
+        - For the color property we will set the value of 'black'.
+        - For the display property we will set the value of 'flex'.
+        - For the flex-direction property we will set the value of 'column'.
+        - For the justify-content property we will set the value of 'center'.
+        - For the padding property we will set the value of '0rem 2rem'.
+        - For the text-shadow property we will set the value of '.1rem .1rem black'
     
     ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Column-Left-Code.png)
 
 9. Create Style for the H1 element in Column left.
     - Create the color, font-size, margin and opacity properties in the h1 class.
-        - For the
-        - For the
-        - For the
-        - For the
+        - For the color property we will set the value of 'white'.
+        - For the font-size property we will set the value of '5rem'.
+        - For the margin-bottom property we will set the value of '1rem'.
+        - For the opacity property we will set the value of '95%'.
+
     
     ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Column-Left-H1-Code.png)
 
 10. Create Style for the P element in Column left.
     - Create the color, font, line-height, opacity and margin properties in the p class.
-        - For the
-        - For the
-        - For the
-        - For the
+        - For the color property we will set the value of 'white'.
+        - For the font-size property we will set the value of '2.7rem'.
+        - For the line-height property we will set the value of '1.5'.
+        - For the opacity property we will set the value of '95%'
+        - For the margin-bottom property we will set the value of '2rem'
     
     ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Column-Left-P-Code.png)
 11. Create Style for the button element.
     - Create the background, border, box-shadow, color, cursor, font, mix-blend-mode and padding properties in the button class.
-        - For the
-        - For the
-        - For the
-        - For the
+        - For the background property we will set the value of 'white'.
+        - For the border property we will write two attributes as follows.
+            - ```border:``` with the value ``` none; ```.
+            - ```border-radius:``` with the value ``` 50px;```.
+        - For the box-shadow property we will set the value of '.5rem .5rem black'
+        - For the color property we will set the value of 'black'.
+        - For the cursor property we will set the value of 'pointer'.
+        - For the font-size property we will set the value of '2rem'.
+        - For the mix-blend-mode property we will set the value of 'screen'.
+        - For the padding property we will set the value of '1rem 3rem'.
     
     ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Button-Code.png)
 
 12. Create Style for the button when the cursor hovers over.
     - Create the background property in the button:hover class.
-        - For the
-        - For the
-        - For the
-        - For the
+        - For the background property we will set the value of 'grey'.
+        
     
     ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Button-Hover-Code.png)
 
 13. Create Style for the right side Column.
     - Create the display, justify-content and padding properties in the column-right class.
-        - For the
-        - For the
-        - For the
-        - For the
+        - For the display property we will set the value of 'flex'.
+        - For the justify-content property we will set the value of 'center'.
+        - For the padding property we will set the value of '0rem 2rem'.
     
     ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Column-Right-Code.png)
 
@@ -174,3 +186,5 @@ If you wish to use the photo that will be used for the background of this tutori
 1. Place the link element after the !Doctype declaration.
     - Your code should look like the following ``` <link rel="stylesheet" href="Style.css"/> ```
     - ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Code-Link.png)
+
+     # Congratulations You Have Made Your First Webpage!!!!
