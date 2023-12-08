@@ -77,7 +77,7 @@
 			}
     </style>
     <p id = 'p1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec imperdiet nunc, eu dignissim ipsum. Curabitur varius nisl eu arcu pellentesque, sit amet venenatis est mattis.</p>-->
-    <img src=Font-for-MD-Page.png>
+    <img src=Pictures-Used-What-Is/Font-for-MD-Page.png>
 </details>
 <details>
     <summary>Changing the background and borders of an element</summary>
@@ -95,7 +95,7 @@
     </style>
     <button type="button" onclick="alert('Hello world!')">Click Me!</button>
     <button id = 'button1'type="button" onclick="alert('Hello world!')">Click Me!</button>-->
-    <img src=Buttons-for-MD-Page.png>
+    <img src=Pictures-Used-What-Is/Buttons-for-MD-Page.png>
 </details>
 <details>
     <summary>Customized Content containers.</summary>
@@ -136,7 +136,7 @@
     font-family: fantasy;
     }</style>
     <div id='div1'><p>Information seperated by a divider.</p></div><div  id=div2><p>Information seperated form the other using a divider.</p></div>-->
-    <img src=Div-Image-for-MD.png>
+    <img src=Pictures-Used-What-Is/Div-Image-for-MD.png>
 </details>
 <p align = "center"><a href='https://github.com/JusticeGtrrz/FinalProject-DigitalSystems/blob/main/README.md'>Back to README</a></p>
 
