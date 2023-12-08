@@ -63,8 +63,8 @@
 <details>
     <summary>Making a Simple Button</summary>
     <pre><code>&lt;button type="button" onclick="alert('Good to see you!')"&gt;Button!&lt;/button&gt;</code></pre>
-    <p>Unfortunately Github doesn't like to display basic HTML buttons. However using a basic text editor you can try the code above and create a simple button.</p>
-    </div><button type="button" onclick="alert('Good to see you!')">Button!</button>   
+    <!--</div><button type="button" onclick="alert('Good to see you!')">Button!</button>-->
+    <img src=Button-for-MD-Page.png>
 </details>
 <details>
     <summary>Using div tags to seperate paragraphs</summary>
