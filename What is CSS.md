@@ -1,4 +1,5 @@
 # What is CSS
+<link rel ='stylesheet' href='MyMD.css' type ='text/>
 [CSS](https://en.wikipedia.org/wiki/CSS) is a language that allows for maniputlation of style, color and design of documents that utilize markup languages such as HTML and XML. CSS was first released in 1996 and was written by HÃ¥kon (Haw-kon) Wium Lie 
 
 ### Terms Used in Tutorial
