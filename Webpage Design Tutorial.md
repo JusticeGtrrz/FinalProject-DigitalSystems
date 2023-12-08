@@ -8,6 +8,7 @@
 
 ## Important Notes
 **For this tutorial I will be using VSCode as my text editor and I will be including snippets of code as displayed in VSCode. I will also attempt to explain terms that were not covered in the What is HTML and CSS documents when they should arise.**
+If you wish to use the photo that will be used for the background of this tutorial you may find it here [Dragon-in-Teacup](https://pixabay.com/illustrations/ai-generated-dragon-cup-tea-cute-8243919/). Otherwise feel free to use your own image.
 
 ### In order to start we must open our text editing software and for our means we will create a new folder.
 #### We will start by establishing a folder for our webpage 
@@ -28,7 +29,7 @@
     - ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Webpage-Tutorial.png)
 4. Navigate to your pre-established webpage folder and place your new file in the folder.
 
-### Now that our Webpage's HTML file has been created we will start coding our contents.
+#### Now that our Webpage's HTML file has been created we will start coding our contents.
 1. Declaring our document type using the !Doctype tag.
     - ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Code-DocType.png)
 2. Create a Html element to establish our coding space and we will nest our Head element with-in the Html element.
@@ -43,11 +44,133 @@
     - With-in this Div create two more Div elements and give one the class column-left.
     - ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Code-Divs-With-Classes.png)
 7. Create your content for your Navigation bar using Href tags and place them in your Nav's second div element.
-    - I will be using three navigation buttons labeled Home, About, and Contact us.
+    - I will be using three navigation buttons using tag "a" for my Href elements labeled Home, About, and Contact us.
 8. Create your content in your Section element within the div that we have given the class Column-left.
-    - I will put some text as well as a button that refers to my imaginary teahouse business.
+    - I will put some text as well as a button that refers to my imaginary teahouse business using the h1 and p elements to designate my header and paragraphs.
     - ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Code-Hrefs-Content.png)
 
 
 ### Now we will create our CSS file and place it in the same folder as our website
+#### For our CSS StyleSheet we will work in a top down fashion as it comes to the classes of our HTML and I will order the properties in alphabetical order for ease of understanding.
+1. For our first step we will create a overall style that will affect the entire webpage using the class '*'.
+    - Create your first four properties Box-sizing, Font-family, margin and padding with-in the * class.
+        - For the box-size I will use the value border-box
+        - For the Font-family I will use the family 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif.
+        - For the margin I will set a value of 0.
+        - For the padding I will set a value of 0.
 
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-VSCode-Style-All-Code.png)
+
+    (Snippets after this point will only show the current element to eliminate redundancy)
+
+2. Create Style for the Body element.
+    - Create the Background, max/min height and max width properties in the Body class.
+        - For the
+        - For the
+        - For the
+        - For the
+    
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-VSCode-Style-Body-Code.png)
+
+3. Create Style for the Logo.
+    - Create the color, font, and padding properties in the logo class.
+        - For the
+        - For the
+        - For the
+        - For the
+    
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Logo-Code.png)
+
+4. Create Style for the Navigation bar element.
+    - Create the align-item, background, display, height, justification, opacity and padding properties in the nav class.
+        - For the
+        - For the
+        - For the
+        - For the
+    
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-VSCode-Style-Navigation-Code.png)
+
+5. Create Style for the Navigation buttons
+    - Create the color, padding and text properties in the a class.
+        - For the
+        - For the
+        - For the
+        - For the
+    
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-VSCode-Style-Navigation-Buttons-Code.png)
+
+6. Create Style for the Navigation buttons when the cursor hovers over.
+    - Create the color property in the a:hover class.
+        - For the
+        - For the
+        - For the
+        - For the
+    
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Navigation-Buttons-Hover-Code.png)
+
+7. Create Style for the Content Container.
+    - Create the display, grid-template, height and padding properties in the content container class.
+        - For the
+        - For the
+        - For the
+        - For the
+    
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Content-Container-Code.png)
+
+8. Create Style for the Overall Column left.
+    - Create the align-item, color, display, flex-direction, justify, padding and text-shadow properties in the column-left class.
+        - For the
+        - For the
+        - For the
+        - For the
+    
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Column-Left-Code.png)
+
+9. Create Style for the H1 element in Column left.
+    - Create the color, font-size, margin and opacity properties in the h1 class.
+        - For the
+        - For the
+        - For the
+        - For the
+    
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Column-Left-H1-Code.png)
+
+10. Create Style for the P element in Column left.
+    - Create the color, font, line-height, opacity and margin properties in the p class.
+        - For the
+        - For the
+        - For the
+        - For the
+    
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Column-Left-P-Code.png)
+11. Create Style for the button element.
+    - Create the background, border, box-shadow, color, cursor, font, mix-blend-mode and padding properties in the button class.
+        - For the
+        - For the
+        - For the
+        - For the
+    
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Button-Code.png)
+
+12. Create Style for the button when the cursor hovers over.
+    - Create the background property in the button:hover class.
+        - For the
+        - For the
+        - For the
+        - For the
+    
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Button-Hover-Code.png)
+
+13. Create Style for the right side Column.
+    - Create the display, justify-content and padding properties in the column-right class.
+        - For the
+        - For the
+        - For the
+        - For the
+    
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Column-Right-Code.png)
+
+### Link our HTML document to our CSS style sheet
+1. Place the link element after the !Doctype declaration.
+    - Your code should look like the following ``` <link rel="stylesheet" href="Style.css"/> ```
+    - ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Code-Link.png)
