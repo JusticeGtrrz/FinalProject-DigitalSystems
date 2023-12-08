@@ -23,6 +23,42 @@
     <summary>Positioning</summary>
     Positioning refers to the location that a element will be displayed on a screen, as well as whether the element will be able to move on the screen.
 </details>
+<details>
+    <summary>Grid</summary>
+    A CSS grid allows for developers to define a column and row layout for their web designs.
+</details>
+<details>
+    <summary>Opacity</summary>
+    Opacity is a property that defines what degree of transparency an element will have.
+</details>
+<details>
+    <summary>Viewport</summary>
+    The viewport refers to the total visual area of a webpage that is available to the user.
+</details>
+<details>
+    <summary>Flex</summary>
+    The flex property of an element defines how the element will grow or shrink in order to fit the available display.
+</details>
+<details>
+    <summary>Box-Sizing</summary>
+    Box-sizing refers to the overall size of the element as it comes to its width and height.
+</details>
+<details>
+    <summary>Rem</summary>
+    Rem is a unit of sizing that stands for the root em and will define aspects of the element that will be inherited from the root element.
+</details>
+<details>
+    <summary>vh/vw</summary>
+    Vh is an abbriviation for viewport height, while vw stands for viewport width both of these are used to define a percent of the total viewport that should be taken by an element.
+</details>
+<details>
+    <summary>fr</summary>
+    Fr stands for Fractional unit and it is a unit of length with-in a defined grid.
+</details>
+<details>
+    <summary>Hexadecimal Color</summary>
+    Hexadecimal Color refers a 6-symbol code that represents the value of Red, Green, and Blue that make up a color from 0 to 255.
+</details>
 
 ### Code Examples
 <details>
