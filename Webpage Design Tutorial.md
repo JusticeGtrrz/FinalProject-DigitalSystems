@@ -37,7 +37,7 @@ If you wish to use the photo that will be used for the background of this tutori
 3. Create and place a Meta element and a Title element with-in our Head element.
     - ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Code-Meta-Title.png)
 4. Create a Body element and nest both a Nav element and Section element.
-    - ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Code-Nav-Section.png)
+    - ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Code-Body-Nav-Section.png)
 5. Create two Div elements with-in the Nav element and one div element with-in the Section element.
     - Give the first Div element in Nav a class by typing &lt;div class="logo"&gt;Logo Name &lt;/div&gt;
 6. Create a Div element in the section element we made in step 4 giv it the class content-container.
