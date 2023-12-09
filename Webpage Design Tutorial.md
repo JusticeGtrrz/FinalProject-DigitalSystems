@@ -37,7 +37,7 @@ If you wish to use the photo that will be used for the background of this tutori
 3. Create and place a Meta element and a Title element with-in our Head element.
     - ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Code-Meta-Title.png)
 4. Create a Body element and nest both a Nav element and Section element.
-    - ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Code-Body-Nav-Section.png)
+    - ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Code-Nav-Section.png)
 5. Create two Div elements with-in the Nav element and one div element with-in the Section element.
     - Give the first Div element in Nav a class by typing &lt;div class="logo"&gt;Logo Name &lt;/div&gt;
 6. Create a Div element in the section element we made in step 4 giv it the class content-container.
@@ -59,7 +59,7 @@ If you wish to use the photo that will be used for the background of this tutori
         - For the margin I will set a value of 0.
         - For the padding I will set a value of 0.
 
-    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-VSCode-Style-All-Code.png)
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-All-Code.png)
 
     (Snippets after this point will only show the current element to eliminate redundancy)
 
@@ -73,7 +73,7 @@ If you wish to use the photo that will be used for the background of this tutori
         - For the max-height property we will set the value to '200vh'.
         - For the min-width property we will set the value to '100vw'.
     
-    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-VSCode-Style-Body-Code.png)
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Body-Code.png)
 
 3. Create Style for the Logo.
     - Create the color, font, and padding properties in the logo class.
@@ -96,7 +96,7 @@ If you wish to use the photo that will be used for the background of this tutori
         - For the opacity property we will set a value of '80%'.
         - For the padding property we will set a value of ```0rem calc((100vw-1300px)/2)```.
     
-    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-VSCode-Style-Navigation-Code.png)
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Navigation-Code.png)
 
 5. Create Style for the Navigation buttons
     - Create the color, padding and text properties in the a class.
@@ -104,7 +104,7 @@ If you wish to use the photo that will be used for the background of this tutori
         - For the padding property we will set a value of '0 1.5rem'.
         - For the text-decoration property we will set a value of 'none'
     
-    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-VSCode-Style-Navigation-Buttons-Code.png)
+    ![Tutorial Webpage](Pictures-for-Tutorial/VSCode-Style-Navigation-Buttons-Code.png)
 
 6. Create Style for the Navigation buttons when the cursor hovers over.
     - Create the color property in the a:hover class.
